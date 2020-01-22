@@ -2,13 +2,7 @@ body{
     position:relative;
     background:linear-gradient(#5cc9e6, #0a5a8e) no-repeat center fixed;
 }
-a{
-    color:white;
-}
 
-a:hover{
-    color:black;
-}
 
 .navbar{
     padding:0;
@@ -37,3 +31,12 @@ a:hover{
       width: 100%;
       height: 100%;
   }
+.carousel-control-prev{
+    left: -100px;
+}
+.carousel-control-next{
+    right: -100px;
+}
+.card{
+    margin: 60px auto 0;
+}
